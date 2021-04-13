@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/mohexc/.nvm/versions/node/v10.22.1/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js add aws-sdk concurrently expression jest mongoose nodemon passport passport-google-oauth20 pupeteer redis uuid
+
+PATH: 
+  /Library/PostgreSQL/13/bin:/Users/mohexc/Library/Android/sdk/platform-tools:/Users/mohexc/.nvm/versions/node/v10.22.1/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/mohexc/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/PostgreSQL/13/bin:/Users/mohexc/Library/Android/sdk/platform-tools:/Users/mohexc/.nvm/versions/node/v10.22.1/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pupeteer: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:140749:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141721:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "node-advnce-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

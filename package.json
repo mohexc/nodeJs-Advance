@@ -1,0 +1,27 @@
+{
+  "name": "node-advnce-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js --ignore tests",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "NPM_CONFIG_PRODUCTION=false npm i --prefix client && npm run build --prefix client",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.885.0",
+    "concurrently": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "puppeteer": "^8.0.0",
+    "redis": "^3.1.1",
+    "uuid": "^8.3.2"
+  }
+}
